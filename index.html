@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methu Perera | Software Engineer</title>
+    <meta name="description" content="Software Engineer and AI/ML enthusiast. Building intelligent systems with logic and discipline.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Methu Perera | Software Engineer">
+    <meta property="og:description" content="Software Engineer and AI/ML enthusiast. Building intelligent systems with logic and discipline.">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Methu Perera | Software Engineer">
+    <meta property="twitter:description" content="Software Engineer and AI/ML enthusiast. Building intelligent systems with logic and discipline.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="monogram">M.P.</div>
+            <div class="loader-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Header / Navbar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">M.P.</a>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#experience" class="nav-link">Chronicles</a>
+                <a href="#skills" class="nav-link">Foundations</a>
+                <a href="#projects" class="nav-link">Selected Works</a>
+                <a href="#library" class="nav-link">The Library</a>
+                <a href="#principles" class="nav-link">Amor Fati</a>
+                <a href="#contact" class="nav-btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <span class="eyebrow">THE INNER CITADEL</span>
+                    <h1 class="hero-title">Methu Perera</h1>
+                    <p class="hero-subtitle">Software Engineer & AI Specialist</p>
+                    <div class="hero-socials">
+                        <a href="https://github.com/JEROME-2005" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/methu-perera-2067a92ab" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="bust-glow"></div>
+                    <img src="hero.jpg" alt="Portrait of Methu" class="hero-bust">
+                </div>
+            </div>
+            <a href="#experience" class="scroll-cta">
+                <span class="cta-text">Descend</span>
+                <i class="fas fa-chevron-down cta-arrow"></i>
+            </a>
+        </section>
+
+        <!-- Experience / Chronicles -->
+        <section id="experience" class="scroll-section">
+            <div class="section-header">
+                <span class="section-eyebrow">THE LINE OF TIME</span>
+                <h2 class="section-title">CHRONICLES</h2>
+            </div>
+            <div class="timeline">
+                <!-- Entry 1 -->
+                <div class="timeline-entry">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">CURRENT ACADEMIC FOCUS</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="entry-title">BSc (Hons) in Computer Science & Software Engineering</h3>
+                        <p class="entry-sub">National Institute of Business Management (NIBM)</p>
+                        <p class="entry-description">Pursuing an rigorous honors degree, deep diving into software architecture, artificial intelligence, and advanced algorithms with consistent academic discipline.</p>
+                        <div class="tech-pills">
+                            <span class="pill">Computer Science</span>
+                            <span class="pill">Software Engineering</span>
+                            <span class="pill">Data Science</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entry 2 -->
+                <div class="timeline-entry">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">PROJECT LABS</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="entry-title">Lead Developer & Researcher | ConstructAI ERP</h3>
+                        <p class="entry-sub">Enterprise Management Ecosystem</p>
+                        <p class="entry-description">Engineered modular construction ERP modules covering user control, inventory tracking, financial flows, and project milestone visualization. Built secure enterprise integrations.</p>
+                        <div class="tech-pills">
+                            <span class="pill">React</span>
+                            <span class="pill">Spring Boot</span>
+                            <span class="pill">Vite</span>
+                            <span class="pill">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone Origin Story -->
+                <div class="timeline-milestone">
+                    <div class="milestone-icon">◈</div>
+                    <div class="milestone-content">
+                        <blockquote class="milestone-quote">
+                            "No man is more unhappy than he who never faces adversity, for he is not permitted to prove himself."
+                        </blockquote>
+                        <cite class="milestone-author">— Seneca</cite>
+                        <p class="milestone-desc">Dec 2022 • Commenced the journey into the architecture of code and design systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills / Foundations -->
+        <section id="skills" class="scroll-section">
+            <div class="section-header">
+                <span class="section-eyebrow">ARCHITECTURAL BASE</span>
+                <h2 class="section-title">Foundations</h2>
+            </div>
+            <div class="skills-quote-container">
+                <p class="skills-quote">"The strength of the structure lies in the integrity of its base; mastery is but logic applied with discipline."</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skills-col">
+                    <h3 class="col-title">THE FACADE OF REASON</h3>
+                    <span class="col-subtitle">Frontend Systems</span>
+                    <ul class="skills-list">
+                        <li>React.js</li>
+                        <li>Vite</li>
+                        <li>Tailwind CSS</li>
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3 class="col-title">THE ARTISAN'S ARSENAL</h3>
+                    <span class="col-subtitle">Tools & Infrastructure</span>
+                    <ul class="skills-list">
+                        <li>Git & Version Control</li>
+                        <li>Docker</li>
+                        <li>Node.js</li>
+                        <li>Postman API testing</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3 class="col-title">THE SUBTERRANEAN CORE</h3>
+                    <span class="col-subtitle">Backend & Machine Learning</span>
+                    <ul class="skills-list">
+                        <li>Python (AI/ML Stack)</li>
+                        <li>TensorFlow / OpenCV</li>
+                        <li>NumPy / Pandas / Mediapipe</li>
+                        <li>Java / C++</li>
+                        <li>Supabase / Firebase</li>
+                        <li>MySQL / Oracle SQL</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="philosophy-pillars">
+                <div class="pillar-card">
+                    <h4>Foundational Craft</h4>
+                    <p>Code is not just functionality; it is a structural commitment. Striving for absolute transparency, maintainability, and architectural order in every repository.</p>
+                </div>
+                <div class="pillar-card">
+                    <h4>The Aesthetic of Logic</h4>
+                    <p>A beautiful interface must be sustained by a rigorous logic layer. Simplicity, fast loading times, and zero-redundancy algorithms define the development ethos.</p>
+                </div>
+                <div class="pillar-card">
+                    <h4>Resilient Delivery</h4>
+                    <p>Adhering to the Stoic concept of control—programming defensively, testing thoroughly, and deploying systems that survive the unpredictability of production.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects / Selected Works -->
+        <section id="projects" class="scroll-section">
+            <div class="section-header">
+                <span class="section-eyebrow">EMPIRICAL PROOF</span>
+                <h2 class="section-title">SELECTED WORKS</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Employee Stress Tracker">
+                        <div class="project-overlay">
+                            <a href="https://github.com/JEROME-2005/Employee-Stress-Tracker" target="_blank" class="overlay-link"><i class="fab fa-github"></i> Inspect Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Employee Stress Tracker</h3>
+                        <p class="project-desc">A deep learning diagnostic environment designed to map and classify physiological indicators of workplace cognitive load. Uses neural networks and a secure database system to capture telemetry and run real-time stress level inference.</p>
+                        <div class="tech-pills">
+                            <span class="pill">Python</span>
+                            <span class="pill">Deep Learning</span>
+                            <span class="pill">Supabase</span>
+                            <span class="pill">TKinter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=800&q=80" alt="ConstructAI ERP">
+                        <div class="project-overlay">
+                            <a href="https://github.com/JEROME-2005/ERP-Construction-Web-Application" target="_blank" class="overlay-link"><i class="fab fa-github"></i> Inspect Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">ConstructAI ERP System</h3>
+                        <p class="project-desc">A full-scale resource management ecosystem built for modern construction workflows. Coordinates live scheduling, inventory movements, accounting audit trails, and multi-tenant permission controls in a unified UI.</p>
+                        <div class="tech-pills">
+                            <span class="pill">React</span>
+                            <span class="pill">Spring Boot</span>
+                            <span class="pill">Vite</span>
+                            <span class="pill">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80" alt="Dementia Tracker System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/JEROME-2005/Dementia-Tracker#" target="_blank" class="overlay-link"><i class="fab fa-github"></i> Inspect Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Dementia Tracker System</h3>
+                        <p class="project-desc">Predictive health analysis engine leveraging scientific Python libraries to pre-diagnose and monitor neurodegenerative risk signals. Integrates interactive frontend representations to map symptom trajectories.</p>
+                        <div class="tech-pills">
+                            <span class="pill">Python</span>
+                            <span class="pill">Jupyter</span>
+                            <span class="pill">HTML/CSS</span>
+                            <span class="pill">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <a href="https://github.com/JEROME-2005" target="_blank" class="btn-outline">
+                    <span>View More On GitHub</span> <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Library / The Library -->
+        <section id="library" class="scroll-section">
+            <div class="section-header">
+                <span class="section-eyebrow">INTELLECTUAL FOOD</span>
+                <h2 class="section-title">THE LIBRARY</h2>
+            </div>
+            <div class="library-intro">
+                <p>A curated registry of texts that shape my perspective on strategy, resilience, code, and systems.</p>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" aria-label="Previous Book"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="carousel-track-wrapper">
+                    <div class="carousel-track">
+                        <!-- Book 1 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">Meditations</h3>
+                            <span class="book-author">Marcus Aurelius</span>
+                            <p class="book-desc">Timeless stoic wisdom on governance of the self.</p>
+                        </div>
+                        <!-- Book 2 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">Start With Why</h3>
+                            <span class="book-author">Simon Sinek</span>
+                            <p class="book-desc">Inspiring action and vision through clarity of purpose.</p>
+                        </div>
+                        <!-- Book 3 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">What Is Man?</h3>
+                            <span class="book-author">Mark Twain</span>
+                            <p class="book-desc">A deep, analytical look at the mechanics of human nature.</p>
+                        </div>
+                        <!-- Book 4 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">Letters from a Stoic</h3>
+                            <span class="book-author">Seneca</span>
+                            <p class="book-desc">Practical philosophy and letters of warning on human vanity.</p>
+                        </div>
+                        <!-- Book 5 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">Book of Five Rings</h3>
+                            <span class="book-author">Miyamoto Musashi</span>
+                            <p class="book-desc">Rigorous strategy, tactical execution, and path of the sword.</p>
+                        </div>
+                        <!-- Book 6 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">The Art of War</h3>
+                            <span class="book-author">Sun Tzu</span>
+                            <p class="book-desc">Ancient strategic wisdom on conflict and tactical preparation.</p>
+                        </div>
+                        <!-- Book 7 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">Atomic Habits</h3>
+                            <span class="book-author">James Clear</span>
+                            <p class="book-desc">Tiny systematic updates leading to exponential returns.</p>
+                        </div>
+                        <!-- Book 8 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">The Witcher</h3>
+                            <span class="book-author">Andrzej Sapkowski</span>
+                            <p class="book-desc">A deep look at morality and neutrality in a complex world.</p>
+                        </div>
+                        <!-- Book 9 -->
+                        <div class="book-card">
+                            <div class="book-cover"><i class="fas fa-book-open"></i></div>
+                            <h3 class="book-title">The Broken Empire</h3>
+                            <span class="book-author">Mark Lawrence</span>
+                            <p class="book-desc">The dark, psychological journey of willpower and rule.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn next-btn" aria-label="Next Book"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Principles / Amor Fati -->
+        <section id="principles" class="scroll-section">
+            <div class="principles-container">
+                <span class="principle-num">I</span>
+                <h2 class="principle-title">Amor Fati</h2>
+                <p class="principle-quote">"Love of fate. Embracing every technical obstacle, compilation error, and operational challenge as a mandatory teacher on the path to mastery."</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="scroll-section">
+            <div class="section-header">
+                <span class="section-eyebrow">COMMUNICATION PATHWAY</span>
+                <h2 class="section-title">CONTACT ME</h2>
+            </div>
+            
+            <div class="contact-container">
+                <form class="contact-form" action="https://formspree.io/f/xyyvledy" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Marcus Aurelius">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="_replyto" required placeholder="marcus@citadel.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Inquiry on Systems Architecture">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                </form>
+                
+                <div class="contact-sidebar">
+                    <div class="memento-mori-box">
+                        <span class="memento-title">MEMENTO MORI</span>
+                        <p class="memento-text">Remember that you are mortal. Let your actions, speech, and emails reflect that clarity. Time is scarce—let's build systems of substance.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="detail-label">TELEPHONY</span>
+                            <span class="detail-value">+94 78 176 6332</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">DIGITAL POST</span>
+                            <span class="detail-value">jeromeperera93@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-sig">Built with logic and discipline. MMXXVI.</p>
+            <p class="footer-copy">&copy; 2026 Methu Perera. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/JEROME-2005" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/methu-perera-2067a92ab" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
